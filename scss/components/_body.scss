@@ -1,0 +1,19 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+$color: (
+    primary:#01070d,
+    secondary:#020207
+);
+$color3: (
+    primary:#d43939,
+    secondary:rgb(204, 215, 57)
+);
+body{
+    color:map-get($color,secondary);
+    background-color:map-get($color3,secondary);
+    
+}
